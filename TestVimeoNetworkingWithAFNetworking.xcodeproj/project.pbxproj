@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		233D21BD2488218400AA0280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233D21BC2488218400AA0280 /* AppDelegate.swift */; };
+		233D21BF2488218400AA0280 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233D21BE2488218400AA0280 /* SceneDelegate.swift */; };
+		233D21C12488218400AA0280 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233D21C02488218400AA0280 /* ViewController.swift */; };
+		233D21C42488218400AA0280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233D21C22488218400AA0280 /* Main.storyboard */; };
+		233D21C62488218400AA0280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233D21C52488218400AA0280 /* Assets.xcassets */; };
+		233D21C92488218400AA0280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233D21C72488218400AA0280 /* LaunchScreen.storyboard */; };
+		FF6CA506EAC9F07278007AC1 /* Pods_TestVimeoNetworkingWithAFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9814565401432EDB948BEAB5 /* Pods_TestVimeoNetworkingWithAFNetworking.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		233D21B92488218400AA0280 /* TestVimeoNetworkingWithAFNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestVimeoNetworkingWithAFNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		233D21BC2488218400AA0280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		233D21BE2488218400AA0280 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		233D21C02488218400AA0280 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		233D21C32488218400AA0280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		233D21C52488218400AA0280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		233D21C82488218400AA0280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		233D21CA2488218400AA0280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923A37A41C6AE13B6958607E /* Pods-TestVimeoNetworkingWithAFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestVimeoNetworkingWithAFNetworking.debug.xcconfig"; path = "Target Support Files/Pods-TestVimeoNetworkingWithAFNetworking/Pods-TestVimeoNetworkingWithAFNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		9814565401432EDB948BEAB5 /* Pods_TestVimeoNetworkingWithAFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestVimeoNetworkingWithAFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4DF0DCB1C2DAE65E7C15684 /* Pods-TestVimeoNetworkingWithAFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestVimeoNetworkingWithAFNetworking.release.xcconfig"; path = "Target Support Files/Pods-TestVimeoNetworkingWithAFNetworking/Pods-TestVimeoNetworkingWithAFNetworking.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		233D21B62488218400AA0280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6CA506EAC9F07278007AC1 /* Pods_TestVimeoNetworkingWithAFNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		233D21B02488218400AA0280 = {
+			isa = PBXGroup;
+			children = (
+				233D21BB2488218400AA0280 /* TestVimeoNetworkingWithAFNetworking */,
+				233D21BA2488218400AA0280 /* Products */,
+				4A886B7E3ECEAE958E35F7FF /* Pods */,
+				F816544FCD82B0A2251BF937 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		233D21BA2488218400AA0280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				233D21B92488218400AA0280 /* TestVimeoNetworkingWithAFNetworking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		233D21BB2488218400AA0280 /* TestVimeoNetworkingWithAFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				233D21BC2488218400AA0280 /* AppDelegate.swift */,
+				233D21BE2488218400AA0280 /* SceneDelegate.swift */,
+				233D21C02488218400AA0280 /* ViewController.swift */,
+				233D21C22488218400AA0280 /* Main.storyboard */,
+				233D21C52488218400AA0280 /* Assets.xcassets */,
+				233D21C72488218400AA0280 /* LaunchScreen.storyboard */,
+				233D21CA2488218400AA0280 /* Info.plist */,
+			);
+			path = TestVimeoNetworkingWithAFNetworking;
+			sourceTree = "<group>";
+		};
+		4A886B7E3ECEAE958E35F7FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				923A37A41C6AE13B6958607E /* Pods-TestVimeoNetworkingWithAFNetworking.debug.xcconfig */,
+				D4DF0DCB1C2DAE65E7C15684 /* Pods-TestVimeoNetworkingWithAFNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F816544FCD82B0A2251BF937 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9814565401432EDB948BEAB5 /* Pods_TestVimeoNetworkingWithAFNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		233D21B82488218400AA0280 /* TestVimeoNetworkingWithAFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233D21CD2488218400AA0280 /* Build configuration list for PBXNativeTarget "TestVimeoNetworkingWithAFNetworking" */;
+			buildPhases = (
+				E298335F3B8323F3816073F1 /* [CP] Check Pods Manifest.lock */,
+				233D21B52488218400AA0280 /* Sources */,
+				233D21B62488218400AA0280 /* Frameworks */,
+				233D21B72488218400AA0280 /* Resources */,
+				BC044F48474801243BABE059 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestVimeoNetworkingWithAFNetworking;
+			productName = TestVimeoNetworkingWithAFNetworking;
+			productReference = 233D21B92488218400AA0280 /* TestVimeoNetworkingWithAFNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		233D21B12488218400AA0280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Igor;
+				TargetAttributes = {
+					233D21B82488218400AA0280 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 233D21B42488218400AA0280 /* Build configuration list for PBXProject "TestVimeoNetworkingWithAFNetworking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 233D21B02488218400AA0280;
+			productRefGroup = 233D21BA2488218400AA0280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				233D21B82488218400AA0280 /* TestVimeoNetworkingWithAFNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		233D21B72488218400AA0280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233D21C92488218400AA0280 /* LaunchScreen.storyboard in Resources */,
+				233D21C62488218400AA0280 /* Assets.xcassets in Resources */,
+				233D21C42488218400AA0280 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC044F48474801243BABE059 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestVimeoNetworkingWithAFNetworking/Pods-TestVimeoNetworkingWithAFNetworking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestVimeoNetworkingWithAFNetworking/Pods-TestVimeoNetworkingWithAFNetworking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestVimeoNetworkingWithAFNetworking/Pods-TestVimeoNetworkingWithAFNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E298335F3B8323F3816073F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestVimeoNetworkingWithAFNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		233D21B52488218400AA0280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233D21C12488218400AA0280 /* ViewController.swift in Sources */,
+				233D21BD2488218400AA0280 /* AppDelegate.swift in Sources */,
+				233D21BF2488218400AA0280 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		233D21C22488218400AA0280 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				233D21C32488218400AA0280 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		233D21C72488218400AA0280 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				233D21C82488218400AA0280 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		233D21CB2488218400AA0280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		233D21CC2488218400AA0280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		233D21CE2488218400AA0280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923A37A41C6AE13B6958607E /* Pods-TestVimeoNetworkingWithAFNetworking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestVimeoNetworkingWithAFNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestVimeoNetworkingWithAFNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		233D21CF2488218400AA0280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4DF0DCB1C2DAE65E7C15684 /* Pods-TestVimeoNetworkingWithAFNetworking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestVimeoNetworkingWithAFNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestVimeoNetworkingWithAFNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		233D21B42488218400AA0280 /* Build configuration list for PBXProject "TestVimeoNetworkingWithAFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233D21CB2488218400AA0280 /* Debug */,
+				233D21CC2488218400AA0280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233D21CD2488218400AA0280 /* Build configuration list for PBXNativeTarget "TestVimeoNetworkingWithAFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233D21CE2488218400AA0280 /* Debug */,
+				233D21CF2488218400AA0280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 233D21B12488218400AA0280 /* Project object */;
+}
